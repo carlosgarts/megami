@@ -1,0 +1,23 @@
+{
+    "tenkai": {
+        "name": "Tenkai",
+        "title": "Horizon Scanner",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante ligula, tristique eleifend dictum quis, tempus quis quam. Sed aliquet massa dolor.",
+        "subtitle": "Enhanced urban",
+        "speciality": "navigation"
+    },
+    "bodyguard": {
+        "name": "Bodyguard",
+        "title": "Security Advisor",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante ligula, tristique eleifend dictum quis, tempus quis quam. Sed aliquet massa dolor.",
+        "subtitle": "Faster space",
+        "speciality": "scannings"
+    },
+    "wise": {
+        "name": "Streetwise",
+        "title": "Visual Detective",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante ligula, tristique eleifend dictum quis, tempus quis quam. Sed aliquet massa dolor.",
+        "subtitle": "Increased surrounding",
+        "speciality": "awareness"
+    }
+}

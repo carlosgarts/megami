@@ -1,0 +1,3714 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+/* Creates an animation with 20 steaps. For each step, it calculates 
+a percentage for the specific step. It then generates a random clip
+box to be used for the random glitch effect. Also adds a very subtle
+skew to change the 'thickness' of the glitch.*/
+@keyframes glitch-anim {
+  0% {
+    clip: rect(65px, 9999px, 3px, 0);
+    transform: skew(0.56deg);
+  }
+  5% {
+    clip: rect(45px, 9999px, 23px, 0);
+    transform: skew(0.72deg);
+  }
+  10% {
+    clip: rect(20px, 9999px, 6px, 0);
+    transform: skew(0.08deg);
+  }
+  15% {
+    clip: rect(3px, 9999px, 21px, 0);
+    transform: skew(0.71deg);
+  }
+  20% {
+    clip: rect(46px, 9999px, 30px, 0);
+    transform: skew(0.26deg);
+  }
+  25% {
+    clip: rect(40px, 9999px, 66px, 0);
+    transform: skew(0.49deg);
+  }
+  30% {
+    clip: rect(99px, 9999px, 98px, 0);
+    transform: skew(0.03deg);
+  }
+  35% {
+    clip: rect(31px, 9999px, 72px, 0);
+    transform: skew(0.23deg);
+  }
+  40% {
+    clip: rect(29px, 9999px, 89px, 0);
+    transform: skew(0.51deg);
+  }
+  45% {
+    clip: rect(38px, 9999px, 87px, 0);
+    transform: skew(0.4deg);
+  }
+  50% {
+    clip: rect(15px, 9999px, 29px, 0);
+    transform: skew(0.31deg);
+  }
+  55% {
+    clip: rect(29px, 9999px, 66px, 0);
+    transform: skew(0.29deg);
+  }
+  60% {
+    clip: rect(8px, 9999px, 8px, 0);
+    transform: skew(0.23deg);
+  }
+  65% {
+    clip: rect(74px, 9999px, 32px, 0);
+    transform: skew(0.57deg);
+  }
+  70% {
+    clip: rect(36px, 9999px, 66px, 0);
+    transform: skew(0.09deg);
+  }
+  75% {
+    clip: rect(49px, 9999px, 13px, 0);
+    transform: skew(0.79deg);
+  }
+  80% {
+    clip: rect(87px, 9999px, 98px, 0);
+    transform: skew(0.75deg);
+  }
+  85% {
+    clip: rect(81px, 9999px, 10px, 0);
+    transform: skew(0.59deg);
+  }
+  90% {
+    clip: rect(57px, 9999px, 61px, 0);
+    transform: skew(0.84deg);
+  }
+  95% {
+    clip: rect(89px, 9999px, 60px, 0);
+    transform: skew(0.14deg);
+  }
+  100% {
+    clip: rect(71px, 9999px, 9px, 0);
+    transform: skew(0.86deg);
+  }
+}
+@keyframes glitch-anim2 {
+  0% {
+    clip: rect(93px, 9999px, 21px, 0);
+    transform: skew(0.45deg);
+  }
+  5% {
+    clip: rect(47px, 9999px, 27px, 0);
+    transform: skew(0.12deg);
+  }
+  10% {
+    clip: rect(15px, 9999px, 93px, 0);
+    transform: skew(0.68deg);
+  }
+  15% {
+    clip: rect(2px, 9999px, 71px, 0);
+    transform: skew(0.68deg);
+  }
+  20% {
+    clip: rect(27px, 9999px, 27px, 0);
+    transform: skew(0.42deg);
+  }
+  25% {
+    clip: rect(41px, 9999px, 29px, 0);
+    transform: skew(0.61deg);
+  }
+  30% {
+    clip: rect(73px, 9999px, 22px, 0);
+    transform: skew(0.49deg);
+  }
+  35% {
+    clip: rect(74px, 9999px, 11px, 0);
+    transform: skew(0.98deg);
+  }
+  40% {
+    clip: rect(92px, 9999px, 98px, 0);
+    transform: skew(0.51deg);
+  }
+  45% {
+    clip: rect(12px, 9999px, 18px, 0);
+    transform: skew(0.21deg);
+  }
+  50% {
+    clip: rect(69px, 9999px, 79px, 0);
+    transform: skew(0.02deg);
+  }
+  55% {
+    clip: rect(82px, 9999px, 37px, 0);
+    transform: skew(0.43deg);
+  }
+  60% {
+    clip: rect(33px, 9999px, 35px, 0);
+    transform: skew(0.44deg);
+  }
+  65% {
+    clip: rect(30px, 9999px, 53px, 0);
+    transform: skew(0.28deg);
+  }
+  70% {
+    clip: rect(45px, 9999px, 76px, 0);
+    transform: skew(0.75deg);
+  }
+  75% {
+    clip: rect(18px, 9999px, 59px, 0);
+    transform: skew(0.75deg);
+  }
+  80% {
+    clip: rect(91px, 9999px, 30px, 0);
+    transform: skew(0.45deg);
+  }
+  85% {
+    clip: rect(70px, 9999px, 14px, 0);
+    transform: skew(0.8deg);
+  }
+  90% {
+    clip: rect(45px, 9999px, 58px, 0);
+    transform: skew(0.8deg);
+  }
+  95% {
+    clip: rect(4px, 9999px, 26px, 0);
+    transform: skew(0.8deg);
+  }
+  100% {
+    clip: rect(21px, 9999px, 21px, 0);
+    transform: skew(0.63deg);
+  }
+}
+@keyframes glitch-skew {
+  0% {
+    transform: skew(3deg);
+  }
+  10% {
+    transform: skew(-3deg);
+  }
+  20% {
+    transform: skew(0deg);
+  }
+  30% {
+    transform: skew(1deg);
+  }
+  40% {
+    transform: skew(0deg);
+  }
+  50% {
+    transform: skew(-4deg);
+  }
+  60% {
+    transform: skew(-2deg);
+  }
+  70% {
+    transform: skew(3deg);
+  }
+  80% {
+    transform: skew(0deg);
+  }
+  90% {
+    transform: skew(1deg);
+  }
+  100% {
+    transform: skew(1deg);
+  }
+}
+/* Creates an animation with 20 steaps. For each step, it calculates 
+a percentage for the specific step. It then generates a random clip
+box to be used for the random glitch effect. Also adds a very subtle
+skew to change the 'thickness' of the glitch.*/
+@keyframes glitch-anim {
+0% {
+    clip: rect(41px, 9999px, 71px, 0);
+    transform: skew(0.03deg);
+}
+5% {
+    clip: rect(54px, 9999px, 87px, 0);
+    transform: skew(0.53deg);
+}
+10% {
+    clip: rect(88px, 9999px, 48px, 0);
+    transform: skew(0.38deg);
+}
+15% {
+    clip: rect(47px, 9999px, 96px, 0);
+    transform: skew(0.12deg);
+}
+20% {
+    clip: rect(69px, 9999px, 57px, 0);
+    transform: skew(0.33deg);
+}
+25% {
+    clip: rect(70px, 9999px, 97px, 0);
+    transform: skew(0.41deg);
+}
+30% {
+    clip: rect(15px, 9999px, 69px, 0);
+    transform: skew(0.35deg);
+}
+35% {
+    clip: rect(6px, 9999px, 100px, 0);
+    transform: skew(0.75deg);
+}
+40% {
+    clip: rect(81px, 9999px, 77px, 0);
+    transform: skew(0.69deg);
+}
+45% {
+    clip: rect(44px, 9999px, 24px, 0);
+    transform: skew(0.2deg);
+}
+50% {
+    clip: rect(86px, 9999px, 32px, 0);
+    transform: skew(0.86deg);
+}
+55% {
+    clip: rect(1px, 9999px, 66px, 0);
+    transform: skew(0.05deg);
+}
+60% {
+    clip: rect(23px, 9999px, 83px, 0);
+    transform: skew(0.4deg);
+}
+65% {
+    clip: rect(73px, 9999px, 21px, 0);
+    transform: skew(0.4deg);
+}
+70% {
+    clip: rect(90px, 9999px, 14px, 0);
+    transform: skew(0.12deg);
+}
+75% {
+    clip: rect(97px, 9999px, 50px, 0);
+    transform: skew(0.2deg);
+}
+80% {
+    clip: rect(99px, 9999px, 5px, 0);
+    transform: skew(0.76deg);
+}
+85% {
+    clip: rect(19px, 9999px, 82px, 0);
+    transform: skew(0.78deg);
+}
+90% {
+    clip: rect(100px, 9999px, 39px, 0);
+    transform: skew(0.64deg);
+}
+95% {
+    clip: rect(29px, 9999px, 47px, 0);
+    transform: skew(0.79deg);
+}
+100% {
+    clip: rect(62px, 9999px, 89px, 0);
+    transform: skew(0.71deg);
+}
+}
+@keyframes glitch-anim2 {
+0% {
+    clip: rect(3px, 9999px, 58px, 0);
+    transform: skew(0.16deg);
+}
+5% {
+    clip: rect(14px, 9999px, 54px, 0);
+    transform: skew(0.48deg);
+}
+10% {
+    clip: rect(4px, 9999px, 4px, 0);
+    transform: skew(0.33deg);
+}
+15% {
+    clip: rect(25px, 9999px, 28px, 0);
+    transform: skew(0.33deg);
+}
+20% {
+    clip: rect(10px, 9999px, 82px, 0);
+    transform: skew(0.22deg);
+}
+25% {
+    clip: rect(26px, 9999px, 36px, 0);
+    transform: skew(0.79deg);
+}
+30% {
+    clip: rect(11px, 9999px, 30px, 0);
+    transform: skew(0.32deg);
+}
+35% {
+    clip: rect(22px, 9999px, 77px, 0);
+    transform: skew(0.51deg);
+}
+40% {
+    clip: rect(21px, 9999px, 45px, 0);
+    transform: skew(0.85deg);
+}
+45% {
+    clip: rect(39px, 9999px, 34px, 0);
+    transform: skew(0.55deg);
+}
+50% {
+    clip: rect(42px, 9999px, 29px, 0);
+    transform: skew(0.04deg);
+}
+55% {
+    clip: rect(89px, 9999px, 68px, 0);
+    transform: skew(0.28deg);
+}
+60% {
+    clip: rect(42px, 9999px, 14px, 0);
+    transform: skew(0.74deg);
+}
+65% {
+    clip: rect(68px, 9999px, 39px, 0);
+    transform: skew(0.29deg);
+}
+70% {
+    clip: rect(86px, 9999px, 21px, 0);
+    transform: skew(0.78deg);
+}
+75% {
+    clip: rect(83px, 9999px, 52px, 0);
+    transform: skew(0.32deg);
+}
+80% {
+    clip: rect(8px, 9999px, 39px, 0);
+    transform: skew(0.24deg);
+}
+85% {
+    clip: rect(26px, 9999px, 14px, 0);
+    transform: skew(0.7deg);
+}
+90% {
+    clip: rect(3px, 9999px, 35px, 0);
+    transform: skew(0.54deg);
+}
+95% {
+    clip: rect(65px, 9999px, 51px, 0);
+    transform: skew(0.28deg);
+}
+100% {
+    clip: rect(33px, 9999px, 37px, 0);
+    transform: skew(0.76deg);
+}
+}
+@keyframes glitch-skew {
+0% {
+    transform: skew(3deg);
+}
+10% {
+    transform: skew(2deg);
+}
+20% {
+    transform: skew(5deg);
+}
+30% {
+    transform: skew(4deg);
+}
+40% {
+    transform: skew(4deg);
+}
+50% {
+    transform: skew(5deg);
+}
+60% {
+    transform: skew(3deg);
+}
+70% {
+    transform: skew(-4deg);
+}
+80% {
+    transform: skew(3deg);
+}
+90% {
+    transform: skew(-2deg);
+}
+100% {
+    transform: skew(3deg);
+}
+}
+.container {
+  transition: 2s;
+  margin: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 200;
+}
+.container.fade-out {
+  transition: 2s;
+  opacity: 0;
+}
+.loader {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin: auto;
+}
+.loader::before, .loader::after {
+  content: "";
+  position: absolute;
+}
+.loader-list {
+  display: grid;
+  grid-template: repeat(3, 120px)/repeat(3, 120px);
+  grid-gap: 30px;
+}
+.loader-item {
+  display: flex;
+  background: rgba(0, 0, 0, 0.05);
+}
+.loader-battery {
+  border: 1px solid #fff;
+  height: 14px;
+  width: 32px;
+}
+.loader-battery::before {
+  width: 4px;
+  height: 10px;
+  background: #fff;
+  left: 1px;
+  top: calc(50% - 5px);
+  animation: blockBar 2s infinite;
+}
+@keyframes blockBar {
+0%, 80% {
+    opacity: 1;
+}
+0%, 20% {
+    box-shadow: 8px 0 0 0 rgba(255, 255, 255, 0), 16px 0 0 0 rgba(255, 255, 255, 0), 24px 0 0 0 rgba(255, 255, 255, 0);
+}
+21%, 40% {
+    box-shadow: 8px 0 0 0 white, 16px 0 0 0 rgba(255, 255, 255, 0), 24px 0 0 0 rgba(255, 255, 255, 0);
+}
+41%, 60% {
+    box-shadow: 8px 0 0 0 white, 16px 0 0 0 white, 24px 0 0 0 rgba(255, 255, 255, 0);
+}
+61%, 80% {
+    box-shadow: 8px 0 0 0 white, 16px 0 0 0 white, 24px 0 0 0 white;
+}
+81%, 100% {
+    opacity: 0;
+}
+}
+/* Creates an animation with 20 steaps. For each step, it calculates 
+a percentage for the specific step. It then generates a random clip
+box to be used for the random glitch effect. Also adds a very subtle
+skew to change the 'thickness' of the glitch.*/
+@keyframes glitch-anim-data-v-12dcbc8a {
+0% {
+    clip: rect(64px, 9999px, 67px, 0);
+    transform: skew(0.03deg);
+}
+5% {
+    clip: rect(53px, 9999px, 65px, 0);
+    transform: skew(0.5deg);
+}
+10% {
+    clip: rect(50px, 9999px, 40px, 0);
+    transform: skew(0.03deg);
+}
+15% {
+    clip: rect(78px, 9999px, 89px, 0);
+    transform: skew(0.74deg);
+}
+20% {
+    clip: rect(79px, 9999px, 69px, 0);
+    transform: skew(0.26deg);
+}
+25% {
+    clip: rect(69px, 9999px, 7px, 0);
+    transform: skew(0.67deg);
+}
+30% {
+    clip: rect(21px, 9999px, 87px, 0);
+    transform: skew(0.47deg);
+}
+35% {
+    clip: rect(14px, 9999px, 85px, 0);
+    transform: skew(0.73deg);
+}
+40% {
+    clip: rect(85px, 9999px, 22px, 0);
+    transform: skew(0.11deg);
+}
+45% {
+    clip: rect(75px, 9999px, 35px, 0);
+    transform: skew(0.19deg);
+}
+50% {
+    clip: rect(88px, 9999px, 47px, 0);
+    transform: skew(0.29deg);
+}
+55% {
+    clip: rect(64px, 9999px, 34px, 0);
+    transform: skew(0.05deg);
+}
+60% {
+    clip: rect(12px, 9999px, 2px, 0);
+    transform: skew(0.28deg);
+}
+65% {
+    clip: rect(58px, 9999px, 4px, 0);
+    transform: skew(0.13deg);
+}
+70% {
+    clip: rect(93px, 9999px, 31px, 0);
+    transform: skew(0.6deg);
+}
+75% {
+    clip: rect(19px, 9999px, 1px, 0);
+    transform: skew(0.55deg);
+}
+80% {
+    clip: rect(20px, 9999px, 5px, 0);
+    transform: skew(0.1deg);
+}
+85% {
+    clip: rect(91px, 9999px, 34px, 0);
+    transform: skew(0.4deg);
+}
+90% {
+    clip: rect(18px, 9999px, 6px, 0);
+    transform: skew(0.68deg);
+}
+95% {
+    clip: rect(85px, 9999px, 82px, 0);
+    transform: skew(0.46deg);
+}
+100% {
+    clip: rect(11px, 9999px, 61px, 0);
+    transform: skew(0.06deg);
+}
+}
+@keyframes glitch-anim2-data-v-12dcbc8a {
+0% {
+    clip: rect(4px, 9999px, 27px, 0);
+    transform: skew(0.52deg);
+}
+5% {
+    clip: rect(33px, 9999px, 19px, 0);
+    transform: skew(0.23deg);
+}
+10% {
+    clip: rect(94px, 9999px, 37px, 0);
+    transform: skew(0.04deg);
+}
+15% {
+    clip: rect(9px, 9999px, 97px, 0);
+    transform: skew(0.26deg);
+}
+20% {
+    clip: rect(88px, 9999px, 69px, 0);
+    transform: skew(0.77deg);
+}
+25% {
+    clip: rect(81px, 9999px, 45px, 0);
+    transform: skew(0.05deg);
+}
+30% {
+    clip: rect(93px, 9999px, 53px, 0);
+    transform: skew(0.56deg);
+}
+35% {
+    clip: rect(47px, 9999px, 83px, 0);
+    transform: skew(0.78deg);
+}
+40% {
+    clip: rect(64px, 9999px, 17px, 0);
+    transform: skew(0.27deg);
+}
+45% {
+    clip: rect(93px, 9999px, 61px, 0);
+    transform: skew(0.28deg);
+}
+50% {
+    clip: rect(84px, 9999px, 37px, 0);
+    transform: skew(0.17deg);
+}
+55% {
+    clip: rect(81px, 9999px, 56px, 0);
+    transform: skew(0.63deg);
+}
+60% {
+    clip: rect(55px, 9999px, 54px, 0);
+    transform: skew(0.64deg);
+}
+65% {
+    clip: rect(79px, 9999px, 61px, 0);
+    transform: skew(0.48deg);
+}
+70% {
+    clip: rect(1px, 9999px, 30px, 0);
+    transform: skew(0.84deg);
+}
+75% {
+    clip: rect(59px, 9999px, 13px, 0);
+    transform: skew(0.88deg);
+}
+80% {
+    clip: rect(78px, 9999px, 28px, 0);
+    transform: skew(0.86deg);
+}
+85% {
+    clip: rect(83px, 9999px, 2px, 0);
+    transform: skew(0.42deg);
+}
+90% {
+    clip: rect(29px, 9999px, 66px, 0);
+    transform: skew(0.07deg);
+}
+95% {
+    clip: rect(47px, 9999px, 67px, 0);
+    transform: skew(0.94deg);
+}
+100% {
+    clip: rect(83px, 9999px, 45px, 0);
+    transform: skew(0.25deg);
+}
+}
+@keyframes glitch-skew-data-v-12dcbc8a {
+0% {
+    transform: skew(2deg);
+}
+10% {
+    transform: skew(-1deg);
+}
+20% {
+    transform: skew(-1deg);
+}
+30% {
+    transform: skew(3deg);
+}
+40% {
+    transform: skew(3deg);
+}
+50% {
+    transform: skew(5deg);
+}
+60% {
+    transform: skew(2deg);
+}
+70% {
+    transform: skew(0deg);
+}
+80% {
+    transform: skew(1deg);
+}
+90% {
+    transform: skew(-4deg);
+}
+100% {
+    transform: skew(-3deg);
+}
+}
+#desk-menu[data-v-12dcbc8a] {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Mono", serif;
+  position: fixed;
+  bottom: -4vw;
+  right: 0;
+  z-index: 5;
+}
+@media (min-width: 800px) {
+#desk-menu[data-v-12dcbc8a] {
+    display: flex;
+}
+}
+.links[data-v-12dcbc8a] {
+  transform-origin: right top;
+  transform: rotate(90deg);
+  width: 100vh;
+  height: 4vw;
+  background: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.glitch[data-v-12dcbc8a] {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 0.3em;
+  cursor: pointer;
+}
+.glitch[data-v-12dcbc8a]:hover {
+  /* Animation provies a slight random skew. Check bottom of doc
+  for more information on how to random skew. */
+  animation: glitch-skew-data-v-12dcbc8a 1s infinite linear alternate-reverse;
+}
+.glitch[data-v-12dcbc8a]:hover::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  left: 2px;
+  text-shadow: -2px 0 #ff00c1;
+  /* Creates an initial clip for our glitch. This works in
+  a typical top,right,bottom,left fashion and creates a mask
+  to only show a certain part of the glitch at a time. */
+  clip: rect(44px, 450px, 56px, 0);
+  /* Runs our glitch-anim defined below to run in a 5s loop, infinitely,
+  with an alternating animation to keep things fresh. */
+  animation: glitch-anim-data-v-12dcbc8a 5s infinite linear alternate-reverse;
+}
+.glitch[data-v-12dcbc8a]:hover::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  left: -2px;
+  text-shadow: -2px 0 #00fff9, 2px 2px #ff00c1;
+  animation: glitch-anim2-data-v-12dcbc8a 1s infinite linear alternate-reverse;
+}
+/* Creates an animation with 20 steaps. For each step, it calculates 
+a percentage for the specific step. It then generates a random clip
+box to be used for the random glitch effect. Also adds a very subtle
+skew to change the 'thickness' of the glitch.*/
+@keyframes glitch-anim-data-v-2d343882 {
+0% {
+    clip: rect(4px, 9999px, 66px, 0);
+    transform: skew(0.44deg);
+}
+5% {
+    clip: rect(66px, 9999px, 59px, 0);
+    transform: skew(0.24deg);
+}
+10% {
+    clip: rect(11px, 9999px, 64px, 0);
+    transform: skew(0.94deg);
+}
+15% {
+    clip: rect(50px, 9999px, 67px, 0);
+    transform: skew(0.21deg);
+}
+20% {
+    clip: rect(83px, 9999px, 53px, 0);
+    transform: skew(0.54deg);
+}
+25% {
+    clip: rect(12px, 9999px, 82px, 0);
+    transform: skew(0.64deg);
+}
+30% {
+    clip: rect(38px, 9999px, 67px, 0);
+    transform: skew(0.97deg);
+}
+35% {
+    clip: rect(97px, 9999px, 84px, 0);
+    transform: skew(0.36deg);
+}
+40% {
+    clip: rect(8px, 9999px, 20px, 0);
+    transform: skew(0.95deg);
+}
+45% {
+    clip: rect(44px, 9999px, 7px, 0);
+    transform: skew(0.69deg);
+}
+50% {
+    clip: rect(10px, 9999px, 71px, 0);
+    transform: skew(0.76deg);
+}
+55% {
+    clip: rect(34px, 9999px, 34px, 0);
+    transform: skew(0.67deg);
+}
+60% {
+    clip: rect(64px, 9999px, 73px, 0);
+    transform: skew(0.42deg);
+}
+65% {
+    clip: rect(18px, 9999px, 12px, 0);
+    transform: skew(0.65deg);
+}
+70% {
+    clip: rect(73px, 9999px, 45px, 0);
+    transform: skew(0.44deg);
+}
+75% {
+    clip: rect(27px, 9999px, 78px, 0);
+    transform: skew(0.43deg);
+}
+80% {
+    clip: rect(86px, 9999px, 77px, 0);
+    transform: skew(0.55deg);
+}
+85% {
+    clip: rect(9px, 9999px, 58px, 0);
+    transform: skew(0.24deg);
+}
+90% {
+    clip: rect(87px, 9999px, 92px, 0);
+    transform: skew(0.67deg);
+}
+95% {
+    clip: rect(78px, 9999px, 3px, 0);
+    transform: skew(0.76deg);
+}
+100% {
+    clip: rect(64px, 9999px, 70px, 0);
+    transform: skew(0.96deg);
+}
+}
+@keyframes glitch-anim2-data-v-2d343882 {
+0% {
+    clip: rect(73px, 9999px, 73px, 0);
+    transform: skew(0.81deg);
+}
+5% {
+    clip: rect(64px, 9999px, 25px, 0);
+    transform: skew(0.62deg);
+}
+10% {
+    clip: rect(16px, 9999px, 29px, 0);
+    transform: skew(0.61deg);
+}
+15% {
+    clip: rect(92px, 9999px, 50px, 0);
+    transform: skew(0.1deg);
+}
+20% {
+    clip: rect(84px, 9999px, 20px, 0);
+    transform: skew(0.31deg);
+}
+25% {
+    clip: rect(17px, 9999px, 72px, 0);
+    transform: skew(0.07deg);
+}
+30% {
+    clip: rect(17px, 9999px, 39px, 0);
+    transform: skew(0.57deg);
+}
+35% {
+    clip: rect(52px, 9999px, 4px, 0);
+    transform: skew(0.86deg);
+}
+40% {
+    clip: rect(56px, 9999px, 31px, 0);
+    transform: skew(0.75deg);
+}
+45% {
+    clip: rect(92px, 9999px, 56px, 0);
+    transform: skew(0.66deg);
+}
+50% {
+    clip: rect(84px, 9999px, 84px, 0);
+    transform: skew(0.55deg);
+}
+55% {
+    clip: rect(52px, 9999px, 28px, 0);
+    transform: skew(0.82deg);
+}
+60% {
+    clip: rect(70px, 9999px, 51px, 0);
+    transform: skew(0.31deg);
+}
+65% {
+    clip: rect(74px, 9999px, 68px, 0);
+    transform: skew(0.99deg);
+}
+70% {
+    clip: rect(83px, 9999px, 1px, 0);
+    transform: skew(0.83deg);
+}
+75% {
+    clip: rect(69px, 9999px, 84px, 0);
+    transform: skew(0.01deg);
+}
+80% {
+    clip: rect(10px, 9999px, 24px, 0);
+    transform: skew(0.71deg);
+}
+85% {
+    clip: rect(57px, 9999px, 68px, 0);
+    transform: skew(0.1deg);
+}
+90% {
+    clip: rect(21px, 9999px, 18px, 0);
+    transform: skew(0.72deg);
+}
+95% {
+    clip: rect(74px, 9999px, 88px, 0);
+    transform: skew(0.13deg);
+}
+100% {
+    clip: rect(64px, 9999px, 43px, 0);
+    transform: skew(0.17deg);
+}
+}
+@keyframes glitch-skew-data-v-2d343882 {
+0% {
+    transform: skew(-2deg);
+}
+10% {
+    transform: skew(2deg);
+}
+20% {
+    transform: skew(3deg);
+}
+30% {
+    transform: skew(2deg);
+}
+40% {
+    transform: skew(3deg);
+}
+50% {
+    transform: skew(-2deg);
+}
+60% {
+    transform: skew(-1deg);
+}
+70% {
+    transform: skew(-3deg);
+}
+80% {
+    transform: skew(5deg);
+}
+90% {
+    transform: skew(-2deg);
+}
+100% {
+    transform: skew(-4deg);
+}
+}
+#phone-menu[data-v-2d343882] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Mono", serif;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 100;
+}
+@media (min-width: 800px) {
+#phone-menu[data-v-2d343882] {
+    bottom: 10%;
+    display: none;
+}
+}
+.toggler[data-v-2d343882] {
+  width: 15vw;
+  height: 15vw;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  z-index: 20;
+}
+.toggler[data-v-2d343882]::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: transparent;
+  border: 1px solid white;
+  width: 110%;
+  height: 110%;
+  bottom: -5%;
+  right: -5%;
+  box-shadow: #eb6bb0 -5px -5px, #82e5f2 5px 5px;
+}
+.toggler svg[data-v-2d343882] {
+  height: 100%;
+  width: 100%;
+}
+.screen[data-v-2d343882] {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0.3;
+}
+.links[data-v-2d343882] {
+  position: fixed;
+  right: -100vw;
+  top: -18vh;
+  display: flex;
+  flex-flow: column;
+  transform: rotate(-30deg);
+  align-items: flex-end;
+  transform-origin: right center;
+}
+@media (min-height: 800px) {
+.links[data-v-2d343882] {
+    top: -5vh;
+}
+}
+.links .linkbox[data-v-2d343882] {
+  margin: 3vh 0;
+  color: white;
+  text-decoration: none;
+  background-color: gray;
+  position: relative;
+  width: 0vw;
+  height: 50px;
+  padding-left: 25px;
+  display: flex;
+  align-items: center;
+}
+.links .linkbox .linkline[data-v-2d343882] {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0vw;
+  background-color: white;
+}
+.links .linkbox[data-v-2d343882]:nth-child(1) {
+  padding-right: 0;
+}
+.links .linkbox[data-v-2d343882]:nth-child(2) {
+  padding-right: 15vw;
+}
+.links .linkbox[data-v-2d343882]:nth-child(3) {
+  padding-right: 30vw;
+}
+.links .linkbox[data-v-2d343882]:nth-child(4) {
+  padding-right: 45vw;
+}
+.links .linkbox[data-v-2d343882]:nth-child(5) {
+  padding-right: 60vw;
+}
+.fade-enter-active[data-v-2d343882], .fade-leave-active[data-v-2d343882] {
+  transition: opacity 0.5s;
+}
+.fade-enter[data-v-2d343882], .fade-leave-to[data-v-2d343882] {
+  opacity: 0;
+}
+/* Creates an animation with 20 steaps. For each step, it calculates 
+a percentage for the specific step. It then generates a random clip
+box to be used for the random glitch effect. Also adds a very subtle
+skew to change the 'thickness' of the glitch.*/
+@keyframes glitch-anim-data-v-3bf00976 {
+0% {
+    clip: rect(18px, 9999px, 59px, 0);
+    transform: skew(0.13deg);
+}
+5% {
+    clip: rect(89px, 9999px, 4px, 0);
+    transform: skew(0.59deg);
+}
+10% {
+    clip: rect(36px, 9999px, 37px, 0);
+    transform: skew(0.21deg);
+}
+15% {
+    clip: rect(19px, 9999px, 68px, 0);
+    transform: skew(0.5deg);
+}
+20% {
+    clip: rect(10px, 9999px, 89px, 0);
+    transform: skew(0.05deg);
+}
+25% {
+    clip: rect(11px, 9999px, 98px, 0);
+    transform: skew(0.64deg);
+}
+30% {
+    clip: rect(52px, 9999px, 17px, 0);
+    transform: skew(0.19deg);
+}
+35% {
+    clip: rect(38px, 9999px, 34px, 0);
+    transform: skew(0.36deg);
+}
+40% {
+    clip: rect(25px, 9999px, 7px, 0);
+    transform: skew(0.36deg);
+}
+45% {
+    clip: rect(88px, 9999px, 56px, 0);
+    transform: skew(0.8deg);
+}
+50% {
+    clip: rect(83px, 9999px, 9px, 0);
+    transform: skew(0.18deg);
+}
+55% {
+    clip: rect(56px, 9999px, 82px, 0);
+    transform: skew(0.71deg);
+}
+60% {
+    clip: rect(8px, 9999px, 60px, 0);
+    transform: skew(0.84deg);
+}
+65% {
+    clip: rect(51px, 9999px, 28px, 0);
+    transform: skew(0.18deg);
+}
+70% {
+    clip: rect(21px, 9999px, 37px, 0);
+    transform: skew(0.96deg);
+}
+75% {
+    clip: rect(38px, 9999px, 19px, 0);
+    transform: skew(0.95deg);
+}
+80% {
+    clip: rect(66px, 9999px, 72px, 0);
+    transform: skew(0.87deg);
+}
+85% {
+    clip: rect(79px, 9999px, 54px, 0);
+    transform: skew(0.75deg);
+}
+90% {
+    clip: rect(51px, 9999px, 67px, 0);
+    transform: skew(0.69deg);
+}
+95% {
+    clip: rect(81px, 9999px, 100px, 0);
+    transform: skew(0.04deg);
+}
+100% {
+    clip: rect(85px, 9999px, 42px, 0);
+    transform: skew(0.68deg);
+}
+}
+@keyframes glitch-anim2-data-v-3bf00976 {
+0% {
+    clip: rect(45px, 9999px, 4px, 0);
+    transform: skew(0.05deg);
+}
+5% {
+    clip: rect(73px, 9999px, 88px, 0);
+    transform: skew(0.08deg);
+}
+10% {
+    clip: rect(96px, 9999px, 94px, 0);
+    transform: skew(0.6deg);
+}
+15% {
+    clip: rect(31px, 9999px, 37px, 0);
+    transform: skew(0.11deg);
+}
+20% {
+    clip: rect(61px, 9999px, 49px, 0);
+    transform: skew(0.27deg);
+}
+25% {
+    clip: rect(100px, 9999px, 45px, 0);
+    transform: skew(0.32deg);
+}
+30% {
+    clip: rect(95px, 9999px, 9px, 0);
+    transform: skew(0.55deg);
+}
+35% {
+    clip: rect(79px, 9999px, 56px, 0);
+    transform: skew(0.53deg);
+}
+40% {
+    clip: rect(56px, 9999px, 41px, 0);
+    transform: skew(0.69deg);
+}
+45% {
+    clip: rect(7px, 9999px, 33px, 0);
+    transform: skew(0.61deg);
+}
+50% {
+    clip: rect(13px, 9999px, 13px, 0);
+    transform: skew(0.37deg);
+}
+55% {
+    clip: rect(44px, 9999px, 11px, 0);
+    transform: skew(0.11deg);
+}
+60% {
+    clip: rect(36px, 9999px, 11px, 0);
+    transform: skew(0.81deg);
+}
+65% {
+    clip: rect(13px, 9999px, 65px, 0);
+    transform: skew(0.79deg);
+}
+70% {
+    clip: rect(19px, 9999px, 36px, 0);
+    transform: skew(0.6deg);
+}
+75% {
+    clip: rect(80px, 9999px, 33px, 0);
+    transform: skew(0.7deg);
+}
+80% {
+    clip: rect(23px, 9999px, 54px, 0);
+    transform: skew(0.88deg);
+}
+85% {
+    clip: rect(90px, 9999px, 12px, 0);
+    transform: skew(0.16deg);
+}
+90% {
+    clip: rect(93px, 9999px, 19px, 0);
+    transform: skew(0.71deg);
+}
+95% {
+    clip: rect(11px, 9999px, 70px, 0);
+    transform: skew(0.69deg);
+}
+100% {
+    clip: rect(82px, 9999px, 96px, 0);
+    transform: skew(0.17deg);
+}
+}
+@keyframes glitch-skew-data-v-3bf00976 {
+0% {
+    transform: skew(-2deg);
+}
+10% {
+    transform: skew(2deg);
+}
+20% {
+    transform: skew(0deg);
+}
+30% {
+    transform: skew(-2deg);
+}
+40% {
+    transform: skew(5deg);
+}
+50% {
+    transform: skew(-3deg);
+}
+60% {
+    transform: skew(3deg);
+}
+70% {
+    transform: skew(4deg);
+}
+80% {
+    transform: skew(1deg);
+}
+90% {
+    transform: skew(2deg);
+}
+100% {
+    transform: skew(-1deg);
+}
+}
+.magazine-grid[data-v-3bf00976] {
+  width: 90%;
+  height: 90vh;
+  margin: 5vh 5%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 45% auto 1fr;
+  row-gap: 50px;
+}
+@media (min-width: 700px) {
+.magazine-grid[data-v-3bf00976] {
+    width: 88%;
+    height: 80vh;
+    margin: 10vh 7% 10vh 5%;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 40% 20% 40%;
+    row-gap: 0;
+}
+}
+.main-logo[data-v-3bf00976] {
+  height: 45%;
+  width: auto;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+@media (min-width: 700px) {
+.main-logo[data-v-3bf00976] {
+    height: 85%;
+}
+}
+.entry[data-v-3bf00976] {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+}
+.entry h2[data-v-3bf00976] {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  color: white;
+  margin: 5px 0;
+}
+.entry p[data-v-3bf00976] {
+  font-family: "Arimo", sans-serif;
+  color: white;
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0;
+  display: block;
+  max-width: 90%;
+}
+@media (min-width: 700px) {
+.entry p[data-v-3bf00976] {
+    max-width: 80%;
+    font-size: 14px;
+}
+}
+.entry.featured[data-v-3bf00976] {
+  justify-content: center;
+  align-content: center;
+  grid-row: 2/3;
+  text-align: center;
+  position: relative;
+}
+@media (min-width: 700px) {
+.entry.featured[data-v-3bf00976] {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    text-align: right;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+}
+.entry.featured[data-v-3bf00976]::after {
+  display: none;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -18px;
+  height: 1px;
+  width: 100%;
+  background-color: white;
+}
+@media (min-width: 700px) {
+.entry.featured[data-v-3bf00976]::after {
+    display: block;
+}
+}
+.entry.featured h2[data-v-3bf00976] {
+  transition: 0.5s;
+  font-size: 50px;
+}
+@media (min-width: 700px) {
+.entry.featured h2[data-v-3bf00976] {
+    font-size: calc(25px + 25 * ((100vw - 700px) / 580));
+}
+}
+@media (min-width: 1280px) {
+.entry.featured h2[data-v-3bf00976] {
+    font-size: 50px;
+}
+}
+.entry.featured p[data-v-3bf00976] {
+  align-self: center;
+}
+@media (min-width: 700px) {
+.entry.featured p[data-v-3bf00976] {
+    align-self: flex-end;
+}
+}
+.entry.first[data-v-3bf00976] {
+  justify-content: flex-start;
+  align-content: center;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: none;
+}
+@media (min-width: 700px) {
+.entry.first[data-v-3bf00976] {
+    display: flex;
+}
+}
+.entry.first h2[data-v-3bf00976] {
+  transition: 0.5s;
+  font-size: 22px;
+}
+@media (min-width: 700px) {
+.entry.first h2[data-v-3bf00976] {
+    font-size: calc(22px + 22 * ((100vw - 700px) / 580));
+    display: block;
+}
+}
+@media (min-width: 1280px) {
+.entry.first h2[data-v-3bf00976] {
+    font-size: 44px;
+}
+}
+.entry.second[data-v-3bf00976] {
+  justify-content: flex-start;
+  align-content: center;
+  grid-row: 3/4;
+  text-align: center;
+  position: relative;
+}
+.entry.second[data-v-3bf00976]::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: -25px;
+  height: 1px;
+  width: 50%;
+  background-color: white;
+  align-self: center;
+}
+@media (min-width: 700px) {
+.entry.second[data-v-3bf00976]::before {
+    display: none;
+}
+}
+@media (min-width: 700px) {
+.entry.second[data-v-3bf00976] {
+    grid-column: 1/2;
+    text-align: left;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
+}
+.entry.second h2[data-v-3bf00976] {
+  font-size: 30px;
+}
+@media (min-width: 700px) {
+.entry.second h2[data-v-3bf00976] {
+    font-size: calc(18px + 46 * ((100vw - 700px) / 580));
+}
+}
+@media (min-width: 1280px) {
+.entry.second h2[data-v-3bf00976] {
+    font-size: 64px;
+}
+}
+.entry.second p[data-v-3bf00976] {
+  display: none;
+}
+@media (min-width: 700px) {
+.entry.second p[data-v-3bf00976] {
+    display: block;
+}
+}
+/* Creates an animation with 20 steaps. For each step, it calculates 
+a percentage for the specific step. It then generates a random clip
+box to be used for the random glitch effect. Also adds a very subtle
+skew to change the 'thickness' of the glitch.*/
+@keyframes glitch-anim-data-v-7417153c {
+0% {
+    clip: rect(94px, 9999px, 94px, 0);
+    transform: skew(0.79deg);
+}
+5% {
+    clip: rect(36px, 9999px, 91px, 0);
+    transform: skew(0.04deg);
+}
+10% {
+    clip: rect(54px, 9999px, 58px, 0);
+    transform: skew(0.34deg);
+}
+15% {
+    clip: rect(45px, 9999px, 7px, 0);
+    transform: skew(0.05deg);
+}
+20% {
+    clip: rect(48px, 9999px, 66px, 0);
+    transform: skew(0.14deg);
+}
+25% {
+    clip: rect(29px, 9999px, 47px, 0);
+    transform: skew(0.47deg);
+}
+30% {
+    clip: rect(7px, 9999px, 8px, 0);
+    transform: skew(0.53deg);
+}
+35% {
+    clip: rect(32px, 9999px, 64px, 0);
+    transform: skew(0.63deg);
+}
+40% {
+    clip: rect(96px, 9999px, 27px, 0);
+    transform: skew(0.82deg);
+}
+45% {
+    clip: rect(33px, 9999px, 38px, 0);
+    transform: skew(0.49deg);
+}
+50% {
+    clip: rect(7px, 9999px, 77px, 0);
+    transform: skew(0.41deg);
+}
+55% {
+    clip: rect(47px, 9999px, 59px, 0);
+    transform: skew(0.67deg);
+}
+60% {
+    clip: rect(21px, 9999px, 68px, 0);
+    transform: skew(0.85deg);
+}
+65% {
+    clip: rect(41px, 9999px, 82px, 0);
+    transform: skew(0.82deg);
+}
+70% {
+    clip: rect(2px, 9999px, 13px, 0);
+    transform: skew(0.9deg);
+}
+75% {
+    clip: rect(22px, 9999px, 2px, 0);
+    transform: skew(0.91deg);
+}
+80% {
+    clip: rect(75px, 9999px, 40px, 0);
+    transform: skew(0.59deg);
+}
+85% {
+    clip: rect(61px, 9999px, 77px, 0);
+    transform: skew(0.9deg);
+}
+90% {
+    clip: rect(29px, 9999px, 94px, 0);
+    transform: skew(0.71deg);
+}
+95% {
+    clip: rect(41px, 9999px, 16px, 0);
+    transform: skew(0.82deg);
+}
+100% {
+    clip: rect(15px, 9999px, 48px, 0);
+    transform: skew(0.16deg);
+}
+}
+@keyframes glitch-anim2-data-v-7417153c {
+0% {
+    clip: rect(22px, 9999px, 70px, 0);
+    transform: skew(0.62deg);
+}
+5% {
+    clip: rect(88px, 9999px, 1px, 0);
+    transform: skew(0.07deg);
+}
+10% {
+    clip: rect(95px, 9999px, 35px, 0);
+    transform: skew(0.42deg);
+}
+15% {
+    clip: rect(42px, 9999px, 68px, 0);
+    transform: skew(0.45deg);
+}
+20% {
+    clip: rect(30px, 9999px, 38px, 0);
+    transform: skew(0.78deg);
+}
+25% {
+    clip: rect(69px, 9999px, 97px, 0);
+    transform: skew(0.61deg);
+}
+30% {
+    clip: rect(48px, 9999px, 17px, 0);
+    transform: skew(0.58deg);
+}
+35% {
+    clip: rect(79px, 9999px, 75px, 0);
+    transform: skew(0.01deg);
+}
+40% {
+    clip: rect(20px, 9999px, 31px, 0);
+    transform: skew(0.13deg);
+}
+45% {
+    clip: rect(49px, 9999px, 50px, 0);
+    transform: skew(0.22deg);
+}
+50% {
+    clip: rect(47px, 9999px, 93px, 0);
+    transform: skew(0.08deg);
+}
+55% {
+    clip: rect(34px, 9999px, 26px, 0);
+    transform: skew(0.52deg);
+}
+60% {
+    clip: rect(36px, 9999px, 81px, 0);
+    transform: skew(0.82deg);
+}
+65% {
+    clip: rect(99px, 9999px, 59px, 0);
+    transform: skew(0.75deg);
+}
+70% {
+    clip: rect(54px, 9999px, 93px, 0);
+    transform: skew(0.43deg);
+}
+75% {
+    clip: rect(16px, 9999px, 98px, 0);
+    transform: skew(0.64deg);
+}
+80% {
+    clip: rect(20px, 9999px, 91px, 0);
+    transform: skew(0.23deg);
+}
+85% {
+    clip: rect(85px, 9999px, 43px, 0);
+    transform: skew(0.6deg);
+}
+90% {
+    clip: rect(88px, 9999px, 50px, 0);
+    transform: skew(0.97deg);
+}
+95% {
+    clip: rect(82px, 9999px, 75px, 0);
+    transform: skew(0.05deg);
+}
+100% {
+    clip: rect(42px, 9999px, 25px, 0);
+    transform: skew(0.8deg);
+}
+}
+@keyframes glitch-skew-data-v-7417153c {
+0% {
+    transform: skew(3deg);
+}
+10% {
+    transform: skew(0deg);
+}
+20% {
+    transform: skew(1deg);
+}
+30% {
+    transform: skew(-2deg);
+}
+40% {
+    transform: skew(4deg);
+}
+50% {
+    transform: skew(-3deg);
+}
+60% {
+    transform: skew(-2deg);
+}
+70% {
+    transform: skew(-4deg);
+}
+80% {
+    transform: skew(2deg);
+}
+90% {
+    transform: skew(3deg);
+}
+100% {
+    transform: skew(-1deg);
+}
+}
+#trend-banner[data-v-7417153c] {
+  background-color: white;
+  margin: 10vh 0;
+  min-height: 260px;
+}
+@media (min-width: 800) {
+#trend-banner[data-v-7417153c] {
+    min-height: 300px;
+}
+}
+@media (min-width: 1400px) {
+#trend-banner[data-v-7417153c] {
+    min-height: 400px;
+}
+}
+.grid[data-v-7417153c] {
+  display: grid;
+  width: 100%;
+  background-image: url(assets/cea47ee0b383236fb31d6f52760e988f.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 700px) {
+.grid[data-v-7417153c] {
+    background-image: none;
+}
+}
+.grid.double-col[data-v-7417153c] {
+  grid-template-columns: 1fr;
+}
+@media (min-width: 700px) {
+.grid.double-col[data-v-7417153c] {
+    grid-template-columns: 1fr 1fr;
+}
+}
+.grid .col[data-v-7417153c] {
+  position: relative;
+  padding: 0px 5%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-flow: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 700px) {
+.grid .col[data-v-7417153c] {
+    margin: 0px 10%;
+    padding: 0;
+}
+}
+@media (min-width: 700px) {
+.grid .col.first[data-v-7417153c] {
+    z-index: 2;
+}
+}
+.grid .col.second[data-v-7417153c] {
+  margin: 0;
+  background-image: none;
+}
+@media (min-width: 700px) {
+.grid .col.second[data-v-7417153c] {
+    background-image: url(assets/cea47ee0b383236fb31d6f52760e988f.svg);
+    z-index: 0;
+}
+}
+.grid .col .t-title[data-v-7417153c] {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin: 5px 0px;
+  width: 90%;
+}
+@media (min-width: 800) {
+.grid .col .t-title[data-v-7417153c] {
+    font-size: calc(28px + 40 * ((100vw - 800px) / 600));
+    margin: 15px 0px;
+}
+}
+@media (min-width: 1400px) {
+.grid .col .t-title[data-v-7417153c] {
+    width: 100%;
+    font-size: 68px;
+}
+}
+.grid .col .t-par[data-v-7417153c] {
+  font-family: "Arimo", sans-serif;
+  margin: 0;
+  width: 80%;
+}
+#banner01[data-v-7417153c] {
+  width: 70%;
+  position: absolute;
+  bottom: -45%;
+  right: 0px;
+}
+@media (min-width: 700px) {
+#banner01[data-v-7417153c] {
+    width: 100%;
+    display: block;
+    width: 90%;
+    position: absolute;
+    bottom: -15%;
+    right: unset;
+}
+}
+/* Creates an animation with 20 steaps. For each step, it calculates 
+a percentage for the specific step. It then generates a random clip
+box to be used for the random glitch effect. Also adds a very subtle
+skew to change the 'thickness' of the glitch.*/
+@keyframes glitch-anim-data-v-c63102f0 {
+0% {
+    clip: rect(4px, 9999px, 97px, 0);
+    transform: skew(0.55deg);
+}
+5% {
+    clip: rect(49px, 9999px, 11px, 0);
+    transform: skew(0.81deg);
+}
+10% {
+    clip: rect(35px, 9999px, 83px, 0);
+    transform: skew(0.14deg);
+}
+15% {
+    clip: rect(66px, 9999px, 64px, 0);
+    transform: skew(0.93deg);
+}
+20% {
+    clip: rect(73px, 9999px, 8px, 0);
+    transform: skew(0.46deg);
+}
+25% {
+    clip: rect(83px, 9999px, 39px, 0);
+    transform: skew(0.05deg);
+}
+30% {
+    clip: rect(27px, 9999px, 73px, 0);
+    transform: skew(0.3deg);
+}
+35% {
+    clip: rect(67px, 9999px, 33px, 0);
+    transform: skew(0.94deg);
+}
+40% {
+    clip: rect(64px, 9999px, 82px, 0);
+    transform: skew(0.86deg);
+}
+45% {
+    clip: rect(85px, 9999px, 19px, 0);
+    transform: skew(0.2deg);
+}
+50% {
+    clip: rect(74px, 9999px, 72px, 0);
+    transform: skew(0.55deg);
+}
+55% {
+    clip: rect(96px, 9999px, 79px, 0);
+    transform: skew(0.61deg);
+}
+60% {
+    clip: rect(100px, 9999px, 66px, 0);
+    transform: skew(0.79deg);
+}
+65% {
+    clip: rect(52px, 9999px, 35px, 0);
+    transform: skew(0.76deg);
+}
+70% {
+    clip: rect(70px, 9999px, 75px, 0);
+    transform: skew(0.45deg);
+}
+75% {
+    clip: rect(33px, 9999px, 80px, 0);
+    transform: skew(0.76deg);
+}
+80% {
+    clip: rect(54px, 9999px, 18px, 0);
+    transform: skew(0.27deg);
+}
+85% {
+    clip: rect(29px, 9999px, 33px, 0);
+    transform: skew(0.67deg);
+}
+90% {
+    clip: rect(42px, 9999px, 22px, 0);
+    transform: skew(0.57deg);
+}
+95% {
+    clip: rect(17px, 9999px, 20px, 0);
+    transform: skew(0.3deg);
+}
+100% {
+    clip: rect(94px, 9999px, 57px, 0);
+    transform: skew(0.88deg);
+}
+}
+@keyframes glitch-anim2-data-v-c63102f0 {
+0% {
+    clip: rect(1px, 9999px, 72px, 0);
+    transform: skew(0.49deg);
+}
+5% {
+    clip: rect(71px, 9999px, 70px, 0);
+    transform: skew(0.5deg);
+}
+10% {
+    clip: rect(17px, 9999px, 73px, 0);
+    transform: skew(0.9deg);
+}
+15% {
+    clip: rect(57px, 9999px, 93px, 0);
+    transform: skew(0.93deg);
+}
+20% {
+    clip: rect(6px, 9999px, 47px, 0);
+    transform: skew(0.33deg);
+}
+25% {
+    clip: rect(72px, 9999px, 93px, 0);
+    transform: skew(0.64deg);
+}
+30% {
+    clip: rect(5px, 9999px, 87px, 0);
+    transform: skew(0.1deg);
+}
+35% {
+    clip: rect(79px, 9999px, 16px, 0);
+    transform: skew(0.74deg);
+}
+40% {
+    clip: rect(93px, 9999px, 16px, 0);
+    transform: skew(0.12deg);
+}
+45% {
+    clip: rect(92px, 9999px, 18px, 0);
+    transform: skew(0.84deg);
+}
+50% {
+    clip: rect(57px, 9999px, 34px, 0);
+    transform: skew(0.46deg);
+}
+55% {
+    clip: rect(5px, 9999px, 60px, 0);
+    transform: skew(0.08deg);
+}
+60% {
+    clip: rect(31px, 9999px, 78px, 0);
+    transform: skew(0.56deg);
+}
+65% {
+    clip: rect(21px, 9999px, 49px, 0);
+    transform: skew(0.13deg);
+}
+70% {
+    clip: rect(86px, 9999px, 75px, 0);
+    transform: skew(0.9deg);
+}
+75% {
+    clip: rect(40px, 9999px, 5px, 0);
+    transform: skew(0.32deg);
+}
+80% {
+    clip: rect(32px, 9999px, 31px, 0);
+    transform: skew(0.38deg);
+}
+85% {
+    clip: rect(4px, 9999px, 17px, 0);
+    transform: skew(0.64deg);
+}
+90% {
+    clip: rect(84px, 9999px, 10px, 0);
+    transform: skew(0.69deg);
+}
+95% {
+    clip: rect(81px, 9999px, 55px, 0);
+    transform: skew(0.43deg);
+}
+100% {
+    clip: rect(69px, 9999px, 39px, 0);
+    transform: skew(0.6deg);
+}
+}
+@keyframes glitch-skew-data-v-c63102f0 {
+0% {
+    transform: skew(3deg);
+}
+10% {
+    transform: skew(-1deg);
+}
+20% {
+    transform: skew(-4deg);
+}
+30% {
+    transform: skew(-2deg);
+}
+40% {
+    transform: skew(4deg);
+}
+50% {
+    transform: skew(-4deg);
+}
+60% {
+    transform: skew(0deg);
+}
+70% {
+    transform: skew(3deg);
+}
+80% {
+    transform: skew(3deg);
+}
+90% {
+    transform: skew(1deg);
+}
+100% {
+    transform: skew(-1deg);
+}
+}
+.catalogue[data-v-c63102f0] {
+  font-family: "Bebas Neue", sans-serif;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+.catalogue .content[data-v-c63102f0] {
+  list-style: none;
+  width: 90%;
+  margin: 5vh 5%;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+@media (min-width: 700px) {
+.catalogue .content[data-v-c63102f0] {
+    grid-template-columns: 1fr 1fr;
+}
+}
+@media (min-width: 800px) {
+.catalogue .content[data-v-c63102f0] {
+    width: 88%;
+    margin: 10vh 7% 10vh 5%;
+}
+}
+@media (min-width: 1280px) {
+.catalogue .content[data-v-c63102f0] {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+.entry[data-v-c63102f0] {
+  width: 90%;
+  height: 90vw;
+  background-color: white;
+  position: relative;
+  padding: 5%;
+  height: 90vw;
+}
+@media (min-width: 700px) {
+.entry[data-v-c63102f0] {
+    height: calc(45vw - 25px);
+}
+}
+@media (min-width: 1280px) {
+.entry[data-v-c63102f0] {
+    height: calc(30vw - 50px);
+}
+}
+.entry a[data-v-c63102f0] {
+  text-decoration: none;
+  width: auto;
+  height: auto;
+}
+.entry a:hover h2[data-v-c63102f0] {
+  /* Animation provies a slight random skew. Check bottom of doc
+  for more information on how to random skew. */
+  animation: glitch-skew-data-v-c63102f0 1s infinite linear alternate-reverse;
+}
+.entry a:hover h2[data-v-c63102f0]::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  left: 2px;
+  text-shadow: -2px 0 white;
+  /* Creates an initial clip for our glitch. This works in
+  a typical top,right,bottom,left fashion and creates a mask
+  to only show a certain part of the glitch at a time. */
+  clip: rect(44px, 450px, 56px, 0);
+  animation: glitch-anim-data-v-c63102f0 5s infinite linear alternate-reverse;
+}
+.entry a:hover h2[data-v-c63102f0]::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  left: -2px;
+  text-shadow: -2px 0 white, 2px 2px black;
+  animation: glitch-anim2-data-v-c63102f0 1s infinite linear alternate-reverse;
+}
+.entry .bars[data-v-c63102f0] {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.entry.more[data-v-c63102f0], .entry.title[data-v-c63102f0] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.entry.more h2[data-v-c63102f0], .entry.title h2[data-v-c63102f0] {
+  z-index: 5;
+  position: relative;
+  font-size: 64px;
+}
+@media (min-width: 700px) {
+.entry.more h2[data-v-c63102f0], .entry.title h2[data-v-c63102f0] {
+    font-size: calc(50px + 14 * ((100vw - 700px) / 580));
+}
+}
+@media (min-width: 1280px) {
+.entry.more h2[data-v-c63102f0], .entry.title h2[data-v-c63102f0] {
+    font-size: 64px;
+}
+}
+.entry.title .bars[data-v-c63102f0] {
+  position: absolute;
+  left: -2%;
+  top: -2%;
+}
+@media (min-width: 1280px) {
+.entry.title .bars[data-v-c63102f0] {
+    left: -5%;
+    top: -5%;
+}
+}
+.entry.more .bars[data-v-c63102f0] {
+  position: absolute;
+  right: -2%;
+  bottom: -2%;
+}
+@media (min-width: 1280px) {
+.entry.more .bars[data-v-c63102f0] {
+    right: -5%;
+    bottom: -5%;
+}
+}
+.product[data-v-c63102f0] {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: column;
+}
+.product .photo[data-v-c63102f0] {
+  transition: 0.5s;
+  width: 90%;
+  height: 90%;
+  position: absolute;
+  top: 0;
+  object-fit: contain;
+}
+.product .title[data-v-c63102f0] {
+  margin: 5px 0;
+  font-size: 36px;
+  padding-top: 8px;
+  border-top: 1px solid black;
+}
+@media (1280px) {
+.product .title[data-v-c63102f0] {
+    font-size: 36px;
+}
+}
+.product .text[data-v-c63102f0] {
+  transition: 0.3s ease;
+  font-family: "Arimo", sans-serif;
+  max-height: 0px;
+  overflow: hidden;
+}
+.product .text .price[data-v-c63102f0] {
+  margin: 5px 0;
+  font-size: 16px;
+}
+.product .text .description[data-v-c63102f0] {
+  margin: 5px 0;
+  font-size: 12px;
+  line-height: 16px;
+}
+.product:hover .photo[data-v-c63102f0] {
+  height: 65%;
+}
+.product:hover .text[data-v-c63102f0] {
+  max-height: 100%;
+}
+h3[data-v-c63102f0],
+h2[data-v-c63102f0],
+p[data-v-c63102f0] {
+  color: black;
+}
+/* Creates an animation with 20 steaps. For each step, it calculates 
+a percentage for the specific step. It then generates a random clip
+box to be used for the random glitch effect. Also adds a very subtle
+skew to change the 'thickness' of the glitch.*/
+@keyframes glitch-anim-data-v-2799865a {
+0% {
+    clip: rect(47px, 9999px, 39px, 0);
+    transform: skew(0.71deg);
+}
+5% {
+    clip: rect(10px, 9999px, 85px, 0);
+    transform: skew(0.79deg);
+}
+10% {
+    clip: rect(70px, 9999px, 61px, 0);
+    transform: skew(0.85deg);
+}
+15% {
+    clip: rect(53px, 9999px, 6px, 0);
+    transform: skew(0.22deg);
+}
+20% {
+    clip: rect(94px, 9999px, 25px, 0);
+    transform: skew(0.51deg);
+}
+25% {
+    clip: rect(65px, 9999px, 97px, 0);
+    transform: skew(0.27deg);
+}
+30% {
+    clip: rect(98px, 9999px, 87px, 0);
+    transform: skew(0.34deg);
+}
+35% {
+    clip: rect(73px, 9999px, 76px, 0);
+    transform: skew(0.88deg);
+}
+40% {
+    clip: rect(15px, 9999px, 19px, 0);
+    transform: skew(0.43deg);
+}
+45% {
+    clip: rect(28px, 9999px, 92px, 0);
+    transform: skew(0.5deg);
+}
+50% {
+    clip: rect(77px, 9999px, 69px, 0);
+    transform: skew(0.74deg);
+}
+55% {
+    clip: rect(79px, 9999px, 44px, 0);
+    transform: skew(0.55deg);
+}
+60% {
+    clip: rect(58px, 9999px, 65px, 0);
+    transform: skew(0.36deg);
+}
+65% {
+    clip: rect(21px, 9999px, 43px, 0);
+    transform: skew(0.88deg);
+}
+70% {
+    clip: rect(56px, 9999px, 21px, 0);
+    transform: skew(0.29deg);
+}
+75% {
+    clip: rect(32px, 9999px, 67px, 0);
+    transform: skew(0.2deg);
+}
+80% {
+    clip: rect(78px, 9999px, 63px, 0);
+    transform: skew(0.38deg);
+}
+85% {
+    clip: rect(51px, 9999px, 78px, 0);
+    transform: skew(0.75deg);
+}
+90% {
+    clip: rect(22px, 9999px, 63px, 0);
+    transform: skew(0.73deg);
+}
+95% {
+    clip: rect(77px, 9999px, 32px, 0);
+    transform: skew(0.73deg);
+}
+100% {
+    clip: rect(41px, 9999px, 16px, 0);
+    transform: skew(0.54deg);
+}
+}
+@keyframes glitch-anim2-data-v-2799865a {
+0% {
+    clip: rect(55px, 9999px, 86px, 0);
+    transform: skew(0.97deg);
+}
+5% {
+    clip: rect(92px, 9999px, 8px, 0);
+    transform: skew(0.16deg);
+}
+10% {
+    clip: rect(94px, 9999px, 2px, 0);
+    transform: skew(0.81deg);
+}
+15% {
+    clip: rect(79px, 9999px, 29px, 0);
+    transform: skew(0.75deg);
+}
+20% {
+    clip: rect(94px, 9999px, 21px, 0);
+    transform: skew(0.63deg);
+}
+25% {
+    clip: rect(47px, 9999px, 45px, 0);
+    transform: skew(0.55deg);
+}
+30% {
+    clip: rect(99px, 9999px, 8px, 0);
+    transform: skew(0.1deg);
+}
+35% {
+    clip: rect(91px, 9999px, 21px, 0);
+    transform: skew(0.49deg);
+}
+40% {
+    clip: rect(50px, 9999px, 63px, 0);
+    transform: skew(0.79deg);
+}
+45% {
+    clip: rect(13px, 9999px, 26px, 0);
+    transform: skew(0.08deg);
+}
+50% {
+    clip: rect(52px, 9999px, 2px, 0);
+    transform: skew(0.44deg);
+}
+55% {
+    clip: rect(65px, 9999px, 26px, 0);
+    transform: skew(0.17deg);
+}
+60% {
+    clip: rect(14px, 9999px, 15px, 0);
+    transform: skew(0.13deg);
+}
+65% {
+    clip: rect(48px, 9999px, 29px, 0);
+    transform: skew(0.5deg);
+}
+70% {
+    clip: rect(53px, 9999px, 88px, 0);
+    transform: skew(0.79deg);
+}
+75% {
+    clip: rect(21px, 9999px, 9px, 0);
+    transform: skew(0.32deg);
+}
+80% {
+    clip: rect(36px, 9999px, 47px, 0);
+    transform: skew(0.39deg);
+}
+85% {
+    clip: rect(15px, 9999px, 26px, 0);
+    transform: skew(0.54deg);
+}
+90% {
+    clip: rect(95px, 9999px, 53px, 0);
+    transform: skew(0.27deg);
+}
+95% {
+    clip: rect(93px, 9999px, 89px, 0);
+    transform: skew(0.18deg);
+}
+100% {
+    clip: rect(74px, 9999px, 63px, 0);
+    transform: skew(0.82deg);
+}
+}
+@keyframes glitch-skew-data-v-2799865a {
+0% {
+    transform: skew(2deg);
+}
+10% {
+    transform: skew(3deg);
+}
+20% {
+    transform: skew(-4deg);
+}
+30% {
+    transform: skew(-1deg);
+}
+40% {
+    transform: skew(1deg);
+}
+50% {
+    transform: skew(5deg);
+}
+60% {
+    transform: skew(4deg);
+}
+70% {
+    transform: skew(2deg);
+}
+80% {
+    transform: skew(-2deg);
+}
+90% {
+    transform: skew(3deg);
+}
+100% {
+    transform: skew(1deg);
+}
+}
+.blog[data-v-2799865a] {
+  margin: 10vh 5%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "Bebas Neue", sans-serif;
+  column-gap: 50px;
+  row-gap: 20px;
+}
+@media (min-width: 800px) {
+.blog[data-v-2799865a] {
+    grid-template-columns: 0.3fr 1.7fr;
+    width: 88%;
+    margin: 10vh 7% 10vh 5%;
+}
+}
+.blog .title[data-v-2799865a] {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0;
+  position: relative;
+  font-size: 30px;
+}
+.blog .title h2[data-v-2799865a] {
+  margin: 0;
+  color: gray;
+  opacity: 0.5;
+}
+@media (min-width: 800px) {
+.blog .title[data-v-2799865a] {
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-90deg);
+    font-size: calc(30px + 115 * ((100vw - 700px) / 580));
+}
+.blog .title h2[data-v-2799865a] {
+    position: absolute;
+}
+}
+@media (min-width: 1280px) {
+.blog .title[data-v-2799865a] {
+    font-size: 145px;
+}
+}
+.blog .news[data-v-2799865a] {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+@media (min-width: 800px) {
+.blog .news[data-v-2799865a] {
+    grid-template-columns: 0.8fr 1.5fr 0.7fr;
+    grid-template-rows: 40vh 5vh 40vh;
+}
+}
+.blog .news .entry[data-v-2799865a] {
+  transition: 0.5s;
+  display: flex;
+  color: white;
+  flex-flow: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: calc(40vw - 7px);
+  background-position: center center;
+  background-size: cover;
+  filter: grayscale(40%);
+}
+.blog .news .entry[data-v-2799865a]:hover {
+  filter: grayscale(0);
+}
+@media (min-width: 800px) {
+.blog .news .entry[data-v-2799865a] {
+    height: 100%;
+}
+.blog .news .entry[data-v-2799865a]:nth-child(2) {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.blog .news .entry[data-v-2799865a]:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.blog .news .entry:nth-child(3) .text p[data-v-2799865a] {
+    display: none;
+}
+.blog .news .entry[data-v-2799865a]:nth-child(4) {
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+.blog .news .entry.more[data-v-2799865a] {
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+.blog .news .entry.more h3[data-v-2799865a] {
+    font-size: 100px;
+}
+}
+.blog .news .entry .text[data-v-2799865a] {
+  width: calc(100% - 3vw);
+  padding: 1.5vw;
+}
+.blog .news .entry .text h3[data-v-2799865a] {
+  font-size: 24px;
+  margin: 5px 0;
+}
+@media (min-width: 700px) {
+.blog .news .entry .text h3[data-v-2799865a] {
+    font-size: calc(20px + 10 * ((100vw - 700px) / 580));
+}
+}
+@media (min-width: 1280px) {
+.blog .news .entry .text h3[data-v-2799865a] {
+    font-size: 30px;
+}
+}
+.blog .news .entry .text p[data-v-2799865a] {
+  font-size: 14px;
+  font-family: "Arimo", sans-serif;
+  margin: 0;
+  display: none;
+}
+@media (min-width: 800px) {
+.blog .news .entry .text p[data-v-2799865a] {
+    display: block;
+}
+}
+.blog .news .entry.entrance[data-v-2799865a], .blog .news .entry.more[data-v-2799865a] {
+  justify-content: center;
+  align-items: center;
+}
+.blog .news .entry.entrance[data-v-2799865a] {
+  grid-row: 1/3;
+  height: 100%;
+  padding: 0;
+}
+.blog-logo[data-v-2799865a] {
+  width: 34%;
+}
+@media (min-width: 800px) {
+.blog-logo[data-v-2799865a] {
+    width: 40%;
+}
+}
+/* Creates an animation with 20 steaps. For each step, it calculates 
+a percentage for the specific step. It then generates a random clip
+box to be used for the random glitch effect. Also adds a very subtle
+skew to change the 'thickness' of the glitch.*/
+@keyframes glitch-anim-data-v-5e2f83fe {
+0% {
+    clip: rect(77px, 9999px, 49px, 0);
+    transform: skew(0.92deg);
+}
+5% {
+    clip: rect(46px, 9999px, 8px, 0);
+    transform: skew(0.01deg);
+}
+10% {
+    clip: rect(31px, 9999px, 62px, 0);
+    transform: skew(0.7deg);
+}
+15% {
+    clip: rect(70px, 9999px, 19px, 0);
+    transform: skew(0.04deg);
+}
+20% {
+    clip: rect(95px, 9999px, 22px, 0);
+    transform: skew(0.92deg);
+}
+25% {
+    clip: rect(90px, 9999px, 55px, 0);
+    transform: skew(0.99deg);
+}
+30% {
+    clip: rect(91px, 9999px, 5px, 0);
+    transform: skew(0.6deg);
+}
+35% {
+    clip: rect(43px, 9999px, 57px, 0);
+    transform: skew(0.15deg);
+}
+40% {
+    clip: rect(70px, 9999px, 95px, 0);
+    transform: skew(0.24deg);
+}
+45% {
+    clip: rect(90px, 9999px, 23px, 0);
+    transform: skew(0.66deg);
+}
+50% {
+    clip: rect(78px, 9999px, 2px, 0);
+    transform: skew(1deg);
+}
+55% {
+    clip: rect(30px, 9999px, 91px, 0);
+    transform: skew(0.53deg);
+}
+60% {
+    clip: rect(87px, 9999px, 4px, 0);
+    transform: skew(0.38deg);
+}
+65% {
+    clip: rect(56px, 9999px, 75px, 0);
+    transform: skew(0.72deg);
+}
+70% {
+    clip: rect(85px, 9999px, 59px, 0);
+    transform: skew(0.78deg);
+}
+75% {
+    clip: rect(36px, 9999px, 38px, 0);
+    transform: skew(0.72deg);
+}
+80% {
+    clip: rect(69px, 9999px, 10px, 0);
+    transform: skew(0.68deg);
+}
+85% {
+    clip: rect(62px, 9999px, 79px, 0);
+    transform: skew(0.33deg);
+}
+90% {
+    clip: rect(68px, 9999px, 10px, 0);
+    transform: skew(0.95deg);
+}
+95% {
+    clip: rect(44px, 9999px, 58px, 0);
+    transform: skew(0.4deg);
+}
+100% {
+    clip: rect(35px, 9999px, 97px, 0);
+    transform: skew(0.14deg);
+}
+}
+@keyframes glitch-anim2-data-v-5e2f83fe {
+0% {
+    clip: rect(58px, 9999px, 24px, 0);
+    transform: skew(0.02deg);
+}
+5% {
+    clip: rect(61px, 9999px, 42px, 0);
+    transform: skew(0.02deg);
+}
+10% {
+    clip: rect(25px, 9999px, 34px, 0);
+    transform: skew(0.3deg);
+}
+15% {
+    clip: rect(51px, 9999px, 91px, 0);
+    transform: skew(0.44deg);
+}
+20% {
+    clip: rect(41px, 9999px, 1px, 0);
+    transform: skew(0.8deg);
+}
+25% {
+    clip: rect(23px, 9999px, 2px, 0);
+    transform: skew(0.04deg);
+}
+30% {
+    clip: rect(46px, 9999px, 89px, 0);
+    transform: skew(0.49deg);
+}
+35% {
+    clip: rect(76px, 9999px, 24px, 0);
+    transform: skew(0.12deg);
+}
+40% {
+    clip: rect(66px, 9999px, 13px, 0);
+    transform: skew(0.22deg);
+}
+45% {
+    clip: rect(37px, 9999px, 97px, 0);
+    transform: skew(0.14deg);
+}
+50% {
+    clip: rect(35px, 9999px, 81px, 0);
+    transform: skew(0.47deg);
+}
+55% {
+    clip: rect(95px, 9999px, 23px, 0);
+    transform: skew(0.37deg);
+}
+60% {
+    clip: rect(43px, 9999px, 29px, 0);
+    transform: skew(0.88deg);
+}
+65% {
+    clip: rect(3px, 9999px, 9px, 0);
+    transform: skew(0.54deg);
+}
+70% {
+    clip: rect(27px, 9999px, 77px, 0);
+    transform: skew(0.32deg);
+}
+75% {
+    clip: rect(13px, 9999px, 11px, 0);
+    transform: skew(0.52deg);
+}
+80% {
+    clip: rect(57px, 9999px, 48px, 0);
+    transform: skew(0.99deg);
+}
+85% {
+    clip: rect(22px, 9999px, 84px, 0);
+    transform: skew(0.68deg);
+}
+90% {
+    clip: rect(87px, 9999px, 18px, 0);
+    transform: skew(0.28deg);
+}
+95% {
+    clip: rect(74px, 9999px, 29px, 0);
+    transform: skew(0.59deg);
+}
+100% {
+    clip: rect(56px, 9999px, 19px, 0);
+    transform: skew(0.26deg);
+}
+}
+@keyframes glitch-skew-data-v-5e2f83fe {
+0% {
+    transform: skew(3deg);
+}
+10% {
+    transform: skew(-2deg);
+}
+20% {
+    transform: skew(5deg);
+}
+30% {
+    transform: skew(-1deg);
+}
+40% {
+    transform: skew(3deg);
+}
+50% {
+    transform: skew(3deg);
+}
+60% {
+    transform: skew(5deg);
+}
+70% {
+    transform: skew(-1deg);
+}
+80% {
+    transform: skew(2deg);
+}
+90% {
+    transform: skew(2deg);
+}
+100% {
+    transform: skew(-4deg);
+}
+}
+footer[data-v-5e2f83fe] {
+  width: 100%;
+  background-color: lightgrey;
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "Bebas Neue", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 800px) {
+footer[data-v-5e2f83fe] {
+    grid-template-columns: 4vw 1fr 4vw;
+}
+}
+footer .slogan[data-v-5e2f83fe] {
+  width: 90%;
+  margin: 100px 5% 25px 5%;
+  text-align: center;
+  font-size: 33px;
+}
+@media (min-width: 700px) {
+footer .slogan[data-v-5e2f83fe] {
+    font-size: calc(33px + 32 * ((100vw - 700px) / 580));
+}
+}
+@media (min-width: 800px) {
+footer .slogan[data-v-5e2f83fe] {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    margin: 100px 5% 0 5%;
+}
+}
+@media (min-width: 1280px) {
+footer .slogan[data-v-5e2f83fe] {
+    font-size: 65px;
+}
+}
+footer .jap[data-v-5e2f83fe] {
+  font-family: "Noto Serif", serif;
+  width: 90%;
+  text-align: center;
+  font-size: 11px;
+  margin: 0 5% 35px 5%;
+}
+@media (min-width: 700px) {
+footer .jap[data-v-5e2f83fe] {
+    font-size: calc(11px + 7 * ((100vw - 700px) / 580));
+    margin: 25px 5% 25px 5%;
+}
+}
+@media (min-width: 800px) {
+footer .jap[data-v-5e2f83fe] {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+}
+@media (min-width: 1280px) {
+footer .jap[data-v-5e2f83fe] {
+    font-size: 23px;
+}
+}
+footer .information[data-v-5e2f83fe] {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+@media (min-width: 800px) {
+footer .information[data-v-5e2f83fe] {
+    grid-template-columns: 1fr 20vw 1fr;
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+}
+footer .information .logo[data-v-5e2f83fe] {
+  width: 50%;
+  margin: auto;
+}
+@media (min-width: 800px) {
+footer .information .logo[data-v-5e2f83fe] {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    width: 100%;
+}
+}
+footer .information .socials[data-v-5e2f83fe] {
+  width: 50%;
+  margin: 20px auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  justify-content: space-around;
+}
+@media (min-width: 800px) {
+footer .information .socials[data-v-5e2f83fe] {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    width: 100%;
+}
+}
+footer .information .socials li[data-v-5e2f83fe] {
+  width: 13vw;
+  height: 13vw;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 800px) {
+footer .information .socials li[data-v-5e2f83fe] {
+    width: 5vw;
+    height: 5vw;
+}
+}
+footer .information .socials li a[data-v-5e2f83fe] {
+  width: 40%;
+  height: 40%;
+}
+footer .information .socials li a .social-icon[data-v-5e2f83fe] {
+  width: 100%;
+  height: 100%;
+}
+footer .information .info[data-v-5e2f83fe] {
+  list-style: none;
+  padding: 0;
+  margin: 0 5%;
+  text-align: center;
+}
+@media (min-width: 800px) {
+footer .information .info.right[data-v-5e2f83fe] {
+    text-align: right;
+}
+}
+@media (min-width: 800px) {
+footer .information .info.left[data-v-5e2f83fe] {
+    text-align: left;
+}
+}
+footer .information .info .text[data-v-5e2f83fe] {
+  margin: 15px 0;
+}
+@media (min-width: 800px) {
+footer .information .info .text[data-v-5e2f83fe] {
+    margin: 40px 0;
+}
+}
+footer .information .info h4[data-v-5e2f83fe] {
+  margin: 5px 0;
+  font-size: 24px;
+}
+@media (min-width: 800px) {
+footer .information .info h4[data-v-5e2f83fe] {
+    font-size: 40px;
+}
+}
+footer .information .info p[data-v-5e2f83fe] {
+  font-family: "Arimo", sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  margin: 5px 0;
+}
+footer .information .info p a[data-v-5e2f83fe] {
+  color: black;
+  text-decoration: none;
+}
+footer .goup[data-v-5e2f83fe] {
+  display: none;
+  color: black;
+  background-color: #FFD46A;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 60px;
+}
+@media (min-width: 800px) {
+footer .goup[data-v-5e2f83fe] {
+    display: flex;
+}
+footer .goup.right[data-v-5e2f83fe] {
+    grid-row: 1/4;
+    grid-column: 3/4;
+}
+footer .goup.left[data-v-5e2f83fe] {
+    grid-row: 1/4;
+    grid-column: 1/2;
+}
+}
+footer .goup button[data-v-5e2f83fe] {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  position: relative;
+  margin-bottom: 40px;
+  height: 100px;
+  cursor: pointer;
+}
+/* Creates an animation with 20 steaps. For each step, it calculates 
+a percentage for the specific step. It then generates a random clip
+box to be used for the random glitch effect. Also adds a very subtle
+skew to change the 'thickness' of the glitch.*/
+@keyframes glitch-anim {
+0% {
+    clip: rect(41px, 9999px, 74px, 0);
+    transform: skew(0.11deg);
+}
+5% {
+    clip: rect(99px, 9999px, 24px, 0);
+    transform: skew(0.74deg);
+}
+10% {
+    clip: rect(72px, 9999px, 90px, 0);
+    transform: skew(0.88deg);
+}
+15% {
+    clip: rect(9px, 9999px, 69px, 0);
+    transform: skew(0.78deg);
+}
+20% {
+    clip: rect(75px, 9999px, 35px, 0);
+    transform: skew(0.05deg);
+}
+25% {
+    clip: rect(28px, 9999px, 30px, 0);
+    transform: skew(1deg);
+}
+30% {
+    clip: rect(36px, 9999px, 93px, 0);
+    transform: skew(0.47deg);
+}
+35% {
+    clip: rect(38px, 9999px, 19px, 0);
+    transform: skew(0.61deg);
+}
+40% {
+    clip: rect(35px, 9999px, 19px, 0);
+    transform: skew(0.71deg);
+}
+45% {
+    clip: rect(37px, 9999px, 33px, 0);
+    transform: skew(0.77deg);
+}
+50% {
+    clip: rect(76px, 9999px, 61px, 0);
+    transform: skew(0.39deg);
+}
+55% {
+    clip: rect(42px, 9999px, 20px, 0);
+    transform: skew(0.02deg);
+}
+60% {
+    clip: rect(22px, 9999px, 32px, 0);
+    transform: skew(0.36deg);
+}
+65% {
+    clip: rect(86px, 9999px, 6px, 0);
+    transform: skew(0.51deg);
+}
+70% {
+    clip: rect(70px, 9999px, 85px, 0);
+    transform: skew(0.25deg);
+}
+75% {
+    clip: rect(76px, 9999px, 33px, 0);
+    transform: skew(0.07deg);
+}
+80% {
+    clip: rect(74px, 9999px, 5px, 0);
+    transform: skew(0.44deg);
+}
+85% {
+    clip: rect(25px, 9999px, 61px, 0);
+    transform: skew(0.19deg);
+}
+90% {
+    clip: rect(82px, 9999px, 92px, 0);
+    transform: skew(1deg);
+}
+95% {
+    clip: rect(81px, 9999px, 46px, 0);
+    transform: skew(0.59deg);
+}
+100% {
+    clip: rect(35px, 9999px, 19px, 0);
+    transform: skew(0.17deg);
+}
+}
+@keyframes glitch-anim2 {
+0% {
+    clip: rect(33px, 9999px, 57px, 0);
+    transform: skew(0.27deg);
+}
+5% {
+    clip: rect(49px, 9999px, 24px, 0);
+    transform: skew(0.09deg);
+}
+10% {
+    clip: rect(49px, 9999px, 85px, 0);
+    transform: skew(0.99deg);
+}
+15% {
+    clip: rect(56px, 9999px, 89px, 0);
+    transform: skew(0.41deg);
+}
+20% {
+    clip: rect(58px, 9999px, 1px, 0);
+    transform: skew(0.88deg);
+}
+25% {
+    clip: rect(2px, 9999px, 14px, 0);
+    transform: skew(0.57deg);
+}
+30% {
+    clip: rect(53px, 9999px, 33px, 0);
+    transform: skew(0.57deg);
+}
+35% {
+    clip: rect(58px, 9999px, 57px, 0);
+    transform: skew(0.06deg);
+}
+40% {
+    clip: rect(75px, 9999px, 88px, 0);
+    transform: skew(0.18deg);
+}
+45% {
+    clip: rect(27px, 9999px, 41px, 0);
+    transform: skew(0.28deg);
+}
+50% {
+    clip: rect(46px, 9999px, 4px, 0);
+    transform: skew(0.05deg);
+}
+55% {
+    clip: rect(53px, 9999px, 34px, 0);
+    transform: skew(0.87deg);
+}
+60% {
+    clip: rect(54px, 9999px, 30px, 0);
+    transform: skew(0.47deg);
+}
+65% {
+    clip: rect(2px, 9999px, 60px, 0);
+    transform: skew(0.79deg);
+}
+70% {
+    clip: rect(9px, 9999px, 89px, 0);
+    transform: skew(0.92deg);
+}
+75% {
+    clip: rect(6px, 9999px, 65px, 0);
+    transform: skew(0.08deg);
+}
+80% {
+    clip: rect(52px, 9999px, 77px, 0);
+    transform: skew(0.12deg);
+}
+85% {
+    clip: rect(76px, 9999px, 16px, 0);
+    transform: skew(0.73deg);
+}
+90% {
+    clip: rect(38px, 9999px, 32px, 0);
+    transform: skew(0.14deg);
+}
+95% {
+    clip: rect(98px, 9999px, 38px, 0);
+    transform: skew(0.69deg);
+}
+100% {
+    clip: rect(93px, 9999px, 18px, 0);
+    transform: skew(0.57deg);
+}
+}
+@keyframes glitch-skew {
+0% {
+    transform: skew(4deg);
+}
+10% {
+    transform: skew(1deg);
+}
+20% {
+    transform: skew(2deg);
+}
+30% {
+    transform: skew(0deg);
+}
+40% {
+    transform: skew(-1deg);
+}
+50% {
+    transform: skew(-1deg);
+}
+60% {
+    transform: skew(-2deg);
+}
+70% {
+    transform: skew(-1deg);
+}
+80% {
+    transform: skew(-4deg);
+}
+90% {
+    transform: skew(2deg);
+}
+100% {
+    transform: skew(3deg);
+}
+}
+#app {
+  overflow-x: hidden;
+}
+.cover {
+  height: 200vh;
+  width: 100%;
+  position: relative;
+}
+.cover #displayer {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -5;
+}
+.cover #displayer.sticky {
+  position: fixed;
+}
+.cover::after {
+  content: "";
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #eb6bb0;
+  background: linear-gradient(90deg, #eb6bb0 0%, #82e5f2 100%);
+}
+.exhibition {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5vh 5%;
+  display: flex;
+  flex-flow: column;
+  color: white;
+  width: 90%;
+}
+@media (min-width: 700px) {
+.exhibition {
+    padding: 10vh 5%;
+}
+}
+.exhibition h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  font-size: 18px;
+}
+@media (min-width: 700px) {
+.exhibition h3 {
+    font-size: 24px;
+}
+}
+.exhibition h3 span {
+  color: black;
+}
+.exhibition h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 64px;
+  margin: 5px 0;
+}
+.exhibition .promotion-t {
+  height: 37px;
+  width: 100%;
+  margin: 5px 0;
+}
+@media (min-width: 700px) {
+.exhibition .promotion-t {
+    height: calc(32px + 32 * ((100vw - 700px) / 580));
+}
+}
+@media (min-width: 800px) {
+.exhibition .promotion-t {
+    height: 64px;
+}
+}
+.exhibition .promotion-t text {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 37px;
+  font-weight: 600;
+  x: 0;
+  y: 85%;
+}
+@media (min-width: 700px) {
+.exhibition .promotion-t text {
+    font-size: calc(32px + 32 * ((100vw - 700px) / 580));
+}
+}
+@media (min-width: 800px) {
+.exhibition .promotion-t text {
+    font-size: 64px;
+}
+}
+.exhibition p {
+  font-family: "Arimo", sans-serif;
+  margin: 0;
+  font-size: 12px;
+  line-height: 24px;
+  width: 85%;
+  max-width: 300px;
+}
+@media (min-width: 700px) {
+.exhibition p {
+    font-size: 14px;
+    max-width: 500px;
+}
+}
+.exhibition ul {
+  padding: 0;
+  margin: 20px 0;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  order: -1;
+  flex-flow: column;
+}
+@media (min-width: 700px) {
+.exhibition ul {
+    order: 0;
+    flex-flow: row nowrap;
+    margin: 10px 0;
+}
+}
+.exhibition ul li {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+@media (min-width: 700px) {
+.exhibition ul li {
+    margin-top: 0;
+}
+}
+.exhibition ul li .chooser {
+  transition: 0.5s;
+  position: relative;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  border: none;
+  color: white;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 5px 15px;
+  width: 150px;
+}
+.exhibition ul li .chooser:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.exhibition ul li .chooser::before, .exhibition ul li .chooser::after {
+  transition: transform 0.5s;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: scale(0, 0);
+}
+.exhibition ul li .chooser::before {
+  top: 0;
+  left: 0;
+  transform-origin: top left;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+}
+.exhibition ul li .chooser::after {
+  bottom: 0;
+  right: 0;
+  transform-origin: bottom right;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+.exhibition ul li .chooser.selected::before, .exhibition ul li .chooser.selected::after {
+  transition: transform 0.5s;
+  transform: scale(100%, 100%);
+}
+@media (min-width: 700px) {
+.exhibition ul li .chooser {
+    width: auto;
+}
+}
